@@ -17,7 +17,11 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
   Abrir 
 </button>
-  
+ <script type="text/javascript">
+    $(window).on('load', function() {
+        $('#modal-total').modal('show');
+    });
+</script> 
 <!-- Modal -->
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal-total">
   <div class="modal-dialog modal-lg" role="document">
