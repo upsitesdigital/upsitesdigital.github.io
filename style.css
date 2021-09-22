@@ -1,0 +1,79 @@
+#exampleModalLabel {
+  width: 30%;
+ 
+}
+.modal-body {
+  background-image: url("https://github.com/erikamassafera/upsites/blob/main/imagem-popup.jpg?raw=true");
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding: 8rem 0 10rem 2rem; 
+  max-height:100%;
+}
+
+.close {
+  margin-top:-7.8rem;
+  margin-right: 0.7rem;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+  opacity: 1;
+}
+
+.close:hover {
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.bt-pdf{
+  color: #fff;
+  background:#34C1F4;
+  font-family:"Verdana";
+  font-size:1rem;
+}
+
+.bt-pdf:hover{
+  color: #fff;
+  background: #2e9cca;
+}
+
+p{
+  font-family:"Verdana";
+  font-size:1.8rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: 0;
+  width: 100%;
+  height: 100%;
+  color:#030384;
+}
+
+.modal-footer{
+  justify-content: start;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .modal-body {
+  background-image: url("https://user-images.githubusercontent.com/39882956/134183679-38c203d6-6f52-497e-b7ca-75c879d7c969.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: 0 0;
+  padding: 0 0 2rem 2rem;
+  
+}
+  
+  #exampleModalLabel {
+    width: 60%;
+    margin-top: 8rem;
+    
+}
+  p{
+    font-size:1.3rem;
+    line-height:1.5rem;
+       
+  }
+ 
+  .bt-pdf{
+  margin-bottom:6rem;
+  }
+} 
