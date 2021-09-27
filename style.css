@@ -36,7 +36,7 @@
   background: #2e9cca;
 }
 
-#exampleModalLabel p{
+p#exampleModalLabel {
   font-family:"Verdana";
   font-size:1.8rem;
   font-weight: 600;
@@ -67,7 +67,7 @@
     margin-top: 8rem;
     
 }
-#exampleModalLabel p{
+p#exampleModalLabel {
     font-size:1.3rem;
     line-height:1.5rem;
        
